@@ -150,5 +150,5 @@ jobs:
         run: |
           nox --session=coverage -- xml
 
-      - name: Upload coverage report
-        uses: codecov/codecov-action@v3.1.0
+      # - name: Upload coverage report
+      #   uses: codecov/codecov-action@v3.1.0
